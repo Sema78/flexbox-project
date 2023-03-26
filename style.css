@@ -41,6 +41,7 @@
 }
 
 .header {
+    height: 450px;
     display: flex;
     background-color: #1F2937;
     font-size: 18px;
@@ -76,3 +77,42 @@
 .header-button:hover {
     background-color: #8db8fd;
 }
+
+.cards-block {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+}
+
+.cards-block h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    padding: 60px;
+    
+}
+
+.card {
+    display: flex;
+    width: 200px;
+    font-size: 18px;
+    color: #898989;
+    flex-direction: column;
+}
+
+.card img {
+    border: 6px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card p {
+    padding: 18px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 30px;
+}
+
